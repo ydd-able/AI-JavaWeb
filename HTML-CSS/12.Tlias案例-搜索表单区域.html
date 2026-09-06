@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tlias智能学习辅助系统</title>
+    <style>
+        /* 全局重置 */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* 顶栏整体 */
+        .top-bar {
+            width: 100%;
+            height: 60px;
+            background-color: #2c3e50;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 0 30px;
+        }
+
+        /* 左侧标题 */
+        .top-bar .title {
+            font-size: 22px;
+            font-weight: bold;
+            color: #ffffff;
+            /* 字体设置为楷体 */
+            font-family: "楷体";
+        }
+
+        /* 右侧退出登录 */
+        .top-bar .logout {
+            color: #ffffff;
+            text-decoration: none;
+            font-size: 14px;
+        }
+
+        .top-bar .logout:hover {
+            color: #e74c3c;
+            text-decoration: underline;
+        }
+
+        /* ==================== 第二部分：搜索表单区域 ==================== */
+        .search-area {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+            padding: 20px 30px;
+            background-color: #f5f7fa;
+            border-bottom: 1px solid #e4e7ed;
+        }
+
+        .search-area label {
+            font-weight: bold;
+            font-size: 14px;
+            white-space: nowrap;
+        }
+
+        .search-area input[type="text"],
+        .search-area select {
+            padding: 6px 10px;
+            border: 1px solid #dcdfe6;
+            border-radius: 4px;
+            font-size: 14px;
+            outline: none;
+        }
+
+        .search-area input[type="text"] {
+            width: 150px;
+        }
+
+        .search-area select {
+            width: 120px;
+        }
+
+        .search-area input[type="text"]:focus,
+        .search-area select:focus {
+            border-color: #409eff;
+        }
+
+        .btn-search {
+            padding: 7px 20px;
+            background-color: #409eff;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 14px;
+        }
+
+        .btn-search:hover {
+            background-color: #66b1ff;
+        }
+
+        .btn-reset {
+            padding: 7px 20px;
+            background-color: #ffffff;
+            color: #606266;
+            border: 1px solid #dcdfe6;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 14px;
+        }
+
+        .btn-reset:hover {
+            color: #409eff;
+            border-color: #c6e2ff;
+            background-color: #ecf5ff;
+        }
+          /* ==================== 第三部分：表格展示区 ==================== */
+        .table-area {
+            padding: 20px 30px;
+        }
+
+        .table-area h3 {
+            font-size: 16px;
+            margin-bottom: 15px;
+            padding-left: 10px;
+            border-left: 4px solid #409eff;
+        }
+
+        .data-table {
+            width: 100%;
+            border-collapse: collapse;
+            font-size: 14px;
+        }
+
+        .data-table thead th {
+            background-color: #f5f7fa;
+            color: #606266;
+            font-weight: bold;
+            padding: 12px 10px;
+            text-align: center;
+            border-bottom: 2px solid #e4e7ed;
+        }
+
+        .data-table tbody td {
+            padding: 14px 10px;
+            text-align: center;
+            border-bottom: 1px solid #ebeef5;
+            color: #333;
+        }
+
+        .data-table tbody tr:hover {
+            background-color: #f5f7fa;
+        }
+
+        .data-table .avatar {
+            width: 36px;
+            height: 36px;
+            border-radius: 50%;
+            object-fit: cover;
+        }
+
+        .btn-edit {
+            padding: 5px 12px;
+            background-color: #409eff;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 12px;
+            margin-right: 6px;
+        }
+
+        .btn-edit:hover {
+            background-color: #66b1ff;
+        }
+
+        .btn-delete {
+            padding: 5px 12px;
+            background-color: #f56c6c;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 12px;
+        }
+
+        .btn-delete:hover {
+            background-color: #f89898;
+        }
+          /* ==================== 第四部分：页脚版权区域 ==================== */
+        .footer {
+            width: 100%;
+            background-color: #2c3e50;
+            color: #ffffff;
+            text-align: center;
+            padding: 25px 0;
+            margin-top: 30px;
+            font-size: 14px;
+            line-height: 2;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- ==================== 第一部分：顶栏 ==================== -->
+    <div class="top-bar">
+        <!-- 左侧：系统标题 -->
+        <span class="title">Tlias智能学习辅助系统</span>
+        <!-- 右侧：退出登录 -->
+        <a href="#" class="logout">退出登录</a>
+    </div>
+    <form class="search-area" action="/search" method="post">
+        <label for="searchName">姓名：</label>
+        <input type="text" id="searchName" name="name" placeholder="请输入姓名">
+
+        <label for="searchGender">性别：</label>
+        <select id="searchGender" name="gender">
+            <option value="">-- 请选择 --</option>
+            <option value="1">男</option>
+            <option value="0">女</option>
+        </select>
+
+        <label for="searchJob">职位：</label>
+        <select id="searchJob" name="job">
+            <option value="">-- 请选择 --</option>
+            <option value="1">班主任</option>
+            <option value="2">讲师</option>
+            <option value="3">学工主管</option>
+            <option value="4">教研主管</option>
+            <option value="5">咨询师</option>
+        </select>
+
+        <input type="submit" class="btn-search" value="查询">
+        <input type="reset" class="btn-reset" value="清空">
+    </form>
+     <!-- ==================== 第三部分：表格展示区 ==================== -->
+    <div class="table-area">
+        <h3>员工列表</h3>
+        <table class="data-table">
+            <thead>
+                <tr>
+                    <th>姓名</th>
+                    <th>性别</th>
+                    <th>头像</th>
+                    <th>职位</th>
+                    <th>入职日期</th>
+                    <th>最后操作时间</th>
+                    <th>操作</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>令狐冲</td>
+                    <td>男</td>
+                    <td><img class="avatar" src="https://ui-avatars.com/api/?name= 令狐冲&background=409eff&color=fff&size=36" alt="令狐冲"></td>
+                    <td>讲师</td>
+                    <td>2020-03-15</td>
+                    <td>2024-06-01 09:30:00</td>
+                    <td>
+                        <button class="btn-edit">编辑</button>
+                        <button class="btn-delete">删除</button>
+                    </td>
+                </tr>
+                <tr>
+                    <td>任盈盈</td>
+                    <td>女</td>
+                    <td><img class="avatar" src="https://ui-avatars.com/api/?name= 任盈盈&background=e6a23c&color=fff&size=36" alt="任盈盈"></td>
+                    <td>班主任</td>
+                    <td>2019-07-20</td>
+                    <td>2024-06-02 14:22:00</td>
+                    <td>
+                        <button class="btn-edit">编辑</button>
+                        <button class="btn-delete">删除</button>
+                    </td>
+                </tr>
+                <tr>
+                    <td>岳不群</td>
+                    <td>男</td>
+                    <td><img class="avatar" src="https://ui-avatars.com/api/?name= 岳不群&background=67c23a&color=fff&size=36" alt="岳不群"></td>
+                    <td>教研主管</td>
+                    <td>2015-01-10</td>
+                    <td>2024-06-03 10:15:00</td>
+                    <td>
+                        <button class="btn-edit">编辑</button>
+                        <button class="btn-delete">删除</button>
+                    </td>
+                </tr>
+                <tr>
+                    <td>仪琳</td>
+                    <td>女</td>
+                    <td><img class="avatar" src="https://ui-avatars.com/api/?name= 仪琳&background=f56c6c&color=fff&size=36" alt="仪琳"></td>
+                    <td>咨询师</td>
+                    <td>2021-11-05</td>
+                    <td>2024-06-03 16:45:00</td>
+                    <td>
+                        <button class="btn-edit">编辑</button>
+                        <button class="btn-delete">删除</button>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+     <!-- ==================== 第四部分：页脚版权区域 ==================== -->
+    <div class="footer">
+        <p>江苏传智播客教育科技股份有限公司</p>
+        <p>版权所有 Copyright 2006-2024 All Rights Reserved</p>
+    </div>
+
+</body>
+
+</html>
