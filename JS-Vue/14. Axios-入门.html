@@ -15,12 +15,30 @@
     <script>
         //发送GET请求
         document.querySelector('#btnGet').addEventListener('click', () => {
-           
+           //axios发起异步请求。
+           axios({
+            url:'https://mock.apifox.cn/ml/3083103-0-default/emps/list',
+            method:'get'
+           }).then((result)=>{
+            console.log(result)
+           }).catch((error)=>{
+            console.log(error)
+           })
         })
         
         //发送POST请求
         document.querySelector('#btnPost').addEventListener('click', () => {
-            
+            axios({
+            url:'https://mock.apifox.cn/ml/3083103-0-default/emps/update',
+            method:'post',
+            data:{
+                id:1
+            }
+           }).then((result)=>{
+            console.log(result)
+           }).catch((error)=>{
+            console.log(error)
+           })
         })
     </script>
 </body>

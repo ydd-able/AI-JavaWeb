@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="1e918656-c098-4102-9b7a-093160600428" name="更改" comment="">
+      <change beforePath="$PROJECT_DIR$/../JS-Vue/05. JS-自定义对象.html" beforeDir="false" afterPath="$PROJECT_DIR$/../JS-Vue/05. JS-自定义对象.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JS-Vue/07. JS-DOM.html" beforeDir="false" afterPath="$PROJECT_DIR$/../JS-Vue/07. JS-DOM.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JS-Vue/08. JS-事件监听.html" beforeDir="false" afterPath="$PROJECT_DIR$/../JS-Vue/08. JS-事件监听.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JS-Vue/09. JS-案例-员工列表.html" beforeDir="false" afterPath="$PROJECT_DIR$/../JS-Vue/09. JS-案例-员工列表.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JS-Vue/11. JS-常见事件(优化).html" beforeDir="false" afterPath="$PROJECT_DIR$/../JS-Vue/11. JS-常见事件(优化).html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JS-Vue/12. Vue-快速入门.html" beforeDir="false" afterPath="$PROJECT_DIR$/../JS-Vue/12. Vue-快速入门.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JS-Vue/13. Vue-案例-员工列表(常用指令).html" beforeDir="false" afterPath="$PROJECT_DIR$/../JS-Vue/13. Vue-案例-员工列表(常用指令).html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JS-Vue/14. Axios-入门.html" beforeDir="false" afterPath="$PROJECT_DIR$/../JS-Vue/14. Axios-入门.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JS-Vue/15. Axios-请求方式别名.html" beforeDir="false" afterPath="$PROJECT_DIR$/../JS-Vue/15. Axios-请求方式别名.html" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 2
+}]]></component>
+  <component name="ProjectId" id="3JGSQW1uy6lWXoab5CiBfJtJg5e" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "D:/java/work_space/AI+JavaWeb/maven",
+    "project.structure.last.edited": "模块",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "reference.settings.project.maven.runner"
+  }
+}]]></component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-30f59d01ecdd-26cb7f24e5b0-intellij.indexing.shared.core-IU-253.29346.138" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="默认任务">
+      <changelist id="1e918656-c098-4102-9b7a-093160600428" name="更改" comment="" />
+      <created>1789285895309</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1789285895309</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="dependencySupport" implementationName="java:org.springframework:spring-core" />
+  </component>
+</project>

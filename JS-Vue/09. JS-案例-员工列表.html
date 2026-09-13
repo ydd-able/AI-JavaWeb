@@ -259,6 +259,15 @@
 
     <script>
         //通过JS为上述的表格中数据行添加事件监听, 实现鼠标进入后, 背景色#f2e2e2; 鼠标离开后, 背景色需要设置为#fff; (JS新版本的语法)
+        document.querySelectorAll('tr').forEach(tr => {
+            tr.addEventListener('mouseenter', function(){
+                this.style.backgroundColor = '#f2e2e2';//鼠标移入
+            })
+            tr.addEventListener('mouseleave', function(){
+                this.style.backgroundColor = '#fff';//鼠标移出。
+            })  
+        })  
+
         
     </script>
 </body>

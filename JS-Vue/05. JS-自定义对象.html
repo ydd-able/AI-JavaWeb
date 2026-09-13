@@ -23,9 +23,11 @@
       age:18,
       gender:'男'
     }
-    alert(JSON.stringify(person));
-    
+    alert(JSON.stringify(person));//把对象转为json格式的字符串
+    let personjson = '{"name":"itcast","age":18,"gender":"男"}'
+    alert(JSON.parse(personjson).name);
 
+    
    
   </script>
 </body>

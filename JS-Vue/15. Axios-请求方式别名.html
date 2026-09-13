@@ -15,8 +15,11 @@
     <script>
         //发送GET请求
         document.querySelector('#btnGet').addEventListener('click', () => {
-          
-        })
+          axios.get('https://mock.apifox.cn/ml/3083103-0-default/emps/list').then((result)=>{
+            console.log(result)
+          }).catch((error)=>{
+            console.log(error)
+          })
         
         //发送POST请求
         document.querySelector('#btnPost').addEventListener('click', () => {

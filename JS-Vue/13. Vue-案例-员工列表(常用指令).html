@@ -117,30 +117,32 @@
       <h1>Tlias智能学习辅助系统</h1>
       <a href="#">退出登录</a>
     </div>
+    {{searchForm}}
 
     <!-- 搜索表单区域 -->
-    <form class="search-form" action="#" method="post">
-      <input type="text" name="name" placeholder="姓名" />
-      <select name="gender">
+    <form class="search-form" action="#" method="get">
+      <input type="text" name="name" v-model="searchForm.name" placeholder="姓名" />
+      <select name="gender" v-model = "searchForm.gender">
           <option value="">性别</option>
           <option value="1">男</option>
           <option value="2">女</option>
       </select>
-      <select name="job">
+      <select name="job" v-model = "searchForm.job">
           <option value="">职位</option>
           <option value="1">班主任</option>
           <option value="2">讲师</option>
           <option value="3">学工主管</option>
           <option value="4">教研主管</option>
-          <option value="5">咨询师</option>
+          <option value="5">咨询师</option> 
       </select>
-      <button type="submit">查询</button>
-      <button type="reset" class="clear">清空</button>
+      <button type="button"v-on:click="search">查询</button>
+      <button type="button"class="clear"@click = "clear">清空</button>
     </form>
 
     <table class="table table-striped table-bordered">
       <thead>
           <tr>
+              <th>序号</th>
               <th>姓名</th>
               <th>性别</th>
               <th>头像</th>
@@ -152,10 +154,11 @@
       </thead>
       <tbody>
         <tr v-for="(emp, index) in empList" :key="index">
+          <td>{{index+1}}</td>
           <td>{{ emp.name }}</td>
-          <td>{{ emp.gender === 1 ? '男' : '女' }}</td>
-          <td><img :src="emp.image" alt="{{ emp.name }}" class="avatar"></td>
-          <td>{{ emp.job === '1' ? '班主任' : (emp.job === '2' ? '讲师' : (emp.job === '3' ? '学工主管' : (emp.job === '4' ? '教研主管' : (emp.job === '5' ? '咨询师' : '未知')))) }}</td>
+          <td>{{ emp.gender == 1 ? '男' : '女' }}</td>
+          <td><img :src="emp.image" :alt="emp.name" class="avatar"></td>
+          <td>{{ emp.job == '1' ? '班主任' : (emp.job == '2' ? '讲师' : (emp.job == '3' ? '学工主管' : (emp.job == '4' ? '教研主管' : (emp.job == '5' ? '咨询师' : '未知')))) }}</td>
           <td>{{ emp.entrydate }}</td>
           <td>{{ emp.updatetime }}</td>
           <td class="btn-group">
@@ -177,6 +180,11 @@
       createApp({
         data() {
           return {
+            searchForm:{
+              name:'',
+              gender:'',
+              job:''
+            },
             empList: [
               { "id": 1,
                 "name": "谢逊",
@@ -206,8 +214,19 @@
               }
             ]
           }
+        },
+      
+        methods:{
+          search(){
+            //将搜索条件输出到控制台。
+            console.log(this.searchForm)
+          },
+          clear(){
+            //清空表单数据
+            this.searchForm = {name:'',gender:'',job:''}
+          }
         }
-      }).mount('#container')
+     } ).mount('#container')
     </script>
 
   </div>
