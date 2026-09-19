@@ -4,17 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1e918656-c098-4102-9b7a-093160600428" name="更改" comment="">
-      <change beforePath="$PROJECT_DIR$/../JS-Vue/05. JS-自定义对象.html" beforeDir="false" afterPath="$PROJECT_DIR$/../JS-Vue/05. JS-自定义对象.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JS-Vue/07. JS-DOM.html" beforeDir="false" afterPath="$PROJECT_DIR$/../JS-Vue/07. JS-DOM.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JS-Vue/08. JS-事件监听.html" beforeDir="false" afterPath="$PROJECT_DIR$/../JS-Vue/08. JS-事件监听.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JS-Vue/09. JS-案例-员工列表.html" beforeDir="false" afterPath="$PROJECT_DIR$/../JS-Vue/09. JS-案例-员工列表.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JS-Vue/11. JS-常见事件(优化).html" beforeDir="false" afterPath="$PROJECT_DIR$/../JS-Vue/11. JS-常见事件(优化).html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JS-Vue/12. Vue-快速入门.html" beforeDir="false" afterPath="$PROJECT_DIR$/../JS-Vue/12. Vue-快速入门.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JS-Vue/13. Vue-案例-员工列表(常用指令).html" beforeDir="false" afterPath="$PROJECT_DIR$/../JS-Vue/13. Vue-案例-员工列表(常用指令).html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JS-Vue/14. Axios-入门.html" beforeDir="false" afterPath="$PROJECT_DIR$/../JS-Vue/14. Axios-入门.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JS-Vue/15. Axios-请求方式别名.html" beforeDir="false" afterPath="$PROJECT_DIR$/../JS-Vue/15. Axios-请求方式别名.html" afterDir="false" />
-    </list>
+    <list default="true" id="1e918656-c098-4102-9b7a-093160600428" name="更改" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -23,9 +13,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 2
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
   <component name="ProjectId" id="3JGSQW1uy6lWXoab5CiBfJtJg5e" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -33,6 +23,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "JUnit.UserServiceAITest.executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
@@ -45,6 +36,28 @@
     "settings.editor.selected.configurable": "reference.settings.project.maven.runner"
   }
 }]]></component>
+  <component name="RunManager">
+    <configuration name="UserServiceAITest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="maven-project01" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.itheima.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.itheima" />
+      <option name="MAIN_CLASS_NAME" value="com.itheima.UserServiceAITest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.UserServiceAITest" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
