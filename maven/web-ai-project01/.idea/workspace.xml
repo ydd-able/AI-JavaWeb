@@ -5,7 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="03e60e3b-fa67-44d7-a1fa-50fd57659273" name="更改" comment="">
-      <change beforePath="$PROJECT_DIR$/maven-project01/src/main/java/com/itheima/HelloWorld.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HelloWorld.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jdbc-demo/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/jdbc-demo/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,8 +24,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -41,42 +47,58 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;JUnit.UserServiceAITest.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.UserServiceTest.testGender2.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.UserServiceTest.testGenderWithAssert.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.UserServiceTest.testGetAge.executor&quot;: &quot;Run&quot;,
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.MCP Project settings loaded&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;Spring Boot.AliyunWebQuickstartApplication.executor&quot;: &quot;Debug&quot;,
-    &quot;Spring Boot.SpringbootWeb01Application.executor&quot;: &quot;Debug&quot;,
-    &quot;com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/java/work_space/AI+JavaWeb/maven/web-ai-project01/springboot-web-01/src/main/resources/static&quot;,
-    &quot;onboarding.tips.debug.path&quot;: &quot;D:/java/work_space/maven/web-ai-project01/maven-project01/src/main/java/com/itheima/Main.java&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;项目&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;MavenSettings&quot;,
-    &quot;to.speed.mode.migration.done&quot;: &quot;true&quot;,
-    &quot;应用程序.HelloWorld.executor&quot;: &quot;Run&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "JUnit.JdbcTest.testUpdate.executor": "Run",
+    "JUnit.SpringbootMybatisQucikstartApplicationTests.executor": "Run",
+    "JUnit.SpringbootMybatisQucikstartApplicationTests.testInsert.executor": "Run",
+    "JUnit.UserServiceAITest.executor": "Run",
+    "JUnit.UserServiceTest.testGender2.executor": "Run",
+    "JUnit.UserServiceTest.testGenderWithAssert.executor": "Run",
+    "JUnit.UserServiceTest.testGetAge.executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.MCP Project settings loaded": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "Spring Boot.AliyunWebQuickstartApplication.executor": "Debug",
+    "Spring Boot.SpringbootMybatisQucikstartApplication.executor": "Debug",
+    "Spring Boot.SpringbootWeb01Application.executor": "Debug",
+    "codeWithMe.voiceChat.enabledByDefault": "false",
+    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "junie.onboarding.icon.badge.shown": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "D:/java/work_space/AI+JavaWeb/maven/web-ai-project01",
+    "onboarding.tips.debug.path": "D:/java/work_space/AI+JavaWeb/maven/web-ai-project01/jdbc-demo/src/main/java/com/itheima/Main.java",
+    "project.structure.last.edited": "模块",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "File.Encoding",
+    "to.speed.mode.migration.done": "true",
+    "vue.rearranger.settings.migration": "true",
+    "应用程序.HelloWorld.executor": "Run"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mysql"
+    ]
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\java\work_space\AI+JavaWeb\maven\web-ai-project01\springboot-web-01\src\main\resources\static" />
       <recent name="D:\java\work_space\AI+JavaWeb\maven\web-ai-project01\springboot-web-01\src\main\resources" />
       <recent name="D:\java\work_space\maven\web-ai-project01\maven-project01\src\main\java\com\itheima" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.itheima.pojo" />
+    </key>
   </component>
-  <component name="RunManager" selected="Spring Boot.SpringbootWeb01Application">
-    <configuration name="UserServiceAITest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="maven-project01" />
+  <component name="RunManager" selected="JUnit.SpringbootMybatisQucikstartApplicationTests.testInsert">
+    <configuration name="JdbcTest.testUpdate" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="jdbc-demo" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.itheima.*" />
@@ -84,14 +106,30 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.itheima" />
-      <option name="MAIN_CLASS_NAME" value="com.itheima.UserServiceAITest" />
+      <option name="MAIN_CLASS_NAME" value="com.itheima.JdbcTest" />
+      <option name="METHOD_NAME" value="testUpdate" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringbootMybatisQucikstartApplicationTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="springboot-mybatis-qucikstart" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.itheima.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.itheima" />
+      <option name="MAIN_CLASS_NAME" value="com.itheima.SpringbootMybatisQucikstartApplicationTests" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UserServiceTest.testGender2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="maven-project01" />
+    <configuration name="SpringbootMybatisQucikstartApplicationTests.testInsert" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="springboot-mybatis-qucikstart" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.itheima.*" />
@@ -99,33 +137,17 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.itheima" />
-      <option name="MAIN_CLASS_NAME" value="com.itheima.UserServiceTest" />
-      <option name="METHOD_NAME" value="testGender2(java.lang.String)" />
+      <option name="MAIN_CLASS_NAME" value="com.itheima.SpringbootMybatisQucikstartApplicationTests" />
+      <option name="METHOD_NAME" value="testInsert" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UserServiceTest.testGenderWithAssert" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="maven-project01" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.itheima.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.itheima" />
-      <option name="MAIN_CLASS_NAME" value="com.itheima.UserServiceTest" />
-      <option name="METHOD_NAME" value="testGenderWithAssert" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="AliyunWebQuickstartApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+    <configuration name="SpringbootMybatisQucikstartApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UnknownPolicyInFreeMode" />
-      <module name="aliyun-web-quickstart" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.itheima.AliyunWebQuickstartApplication" />
+      <module name="springboot-mybatis-qucikstart" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.itheima.SpringbootMybatisQucikstartApplication" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.itheima.*" />
@@ -152,18 +174,19 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.SpringbootMybatisQucikstartApplicationTests.testInsert" />
+        <item itemvalue="JUnit.SpringbootMybatisQucikstartApplicationTests" />
+        <item itemvalue="Spring Boot.SpringbootMybatisQucikstartApplication" />
+        <item itemvalue="JUnit.JdbcTest.testUpdate" />
         <item itemvalue="Spring Boot.SpringbootWeb01Application" />
-        <item itemvalue="Spring Boot.AliyunWebQuickstartApplication" />
-        <item itemvalue="JUnit.UserServiceAITest" />
-        <item itemvalue="JUnit.UserServiceTest.testGender2" />
-        <item itemvalue="JUnit.UserServiceTest.testGenderWithAssert" />
       </list>
     </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-jdk-30f59d01ecdd-26cb7f24e5b0-intellij.indexing.shared.core-IU-253.29346.138" />
+        <option value="bundled-jdk-30f59d01ecdd-37e91769500f-intellij.indexing.shared.core-IU-261.24374.151" />
+        <option value="bundled-js-predefined-d6986cc7102b-31caf2ab9e3c-JavaScript-IU-261.24374.151" />
       </set>
     </attachedChunks>
   </component>
@@ -174,8 +197,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1789116326433</updated>
+      <workItem from="1791440673799" duration="788000" />
     </task>
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -189,6 +216,11 @@
           <url>file://$PROJECT_DIR$/maven-project01/src/main/java/com/itheima/Main.java</url>
           <line>17</line>
           <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/jdbc-demo/src/main/java/com/itheima/Main.java</url>
+          <line>17</line>
+          <option name="timeStamp" value="3" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

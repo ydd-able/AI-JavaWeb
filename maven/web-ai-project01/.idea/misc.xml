@@ -7,6 +7,8 @@
         <option value="$PROJECT_DIR$/maven-project01/pom.xml" />
         <option value="$PROJECT_DIR$/aliyun-web-quickstart/pom.xml" />
         <option value="$PROJECT_DIR$/springboot-web-01/pom.xml" />
+        <option value="$PROJECT_DIR$/jdbc-demo/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-mybatis-qucikstart/pom.xml" />
       </list>
     </option>
   </component>

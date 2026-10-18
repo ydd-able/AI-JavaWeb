@@ -4,6 +4,7 @@ import com.itheima.pojo.Dept;
 import com.itheima.pojo.Result;
 import com.itheima.service.DeptService;
 import jakarta.servlet.http.HttpServletRequest;
+import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.service.invoker.HttpServiceArgumentResolver;
@@ -14,6 +15,7 @@ import java.util.List;
  * @author ydd
  * @project IntelliJ IDEA
  */
+@Slf4j
 @RestController
 public class DeptController {
     @Autowired
