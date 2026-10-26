@@ -2,6 +2,7 @@ package com.itheima.service;
 
 import com.itheima.mapper.DeptMapper;
 import com.itheima.pojo.Dept;
+import com.itheima.pojo.Emp;
 import org.springframework.beans.factory.annotation.Autowired;
 
 import java.util.List;
@@ -27,6 +28,7 @@ public interface DeptService {
     Dept getById(Integer id);
 
     void update(Dept dept);
+
 
 
 }

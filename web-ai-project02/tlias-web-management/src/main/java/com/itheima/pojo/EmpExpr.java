@@ -1,11 +1,14 @@
 package com.itheima.pojo;
 
+import lombok.Data;
+
 import java.time.LocalDate;
 
 /**
  * @author ydd
  * @project IntelliJ IDEA
  */
+@Data
 public class EmpExpr {
     private Integer id; //ID
     private Integer empId; //员工ID
