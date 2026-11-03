@@ -53,5 +53,8 @@ public interface EmpMapper {
     void updateById(Emp emp);
 
     List<Map<String, Object>> countEmpJobData();
+    @Select("select id ,username,name,image from emp where username = #{username} and password = #{password}")
+
+    Emp selectByUsernameAndPassword(Emp emp);
 
 }
