@@ -1,0 +1,19 @@
+package com.itheima.config;
+
+import com.itheima.utils.AliyunOSSOperator;
+import com.itheima.utils.AliyunOSSProperties;
+import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.Configuration;
+
+/**
+ * @author ydd
+ * @project IntelliJ IDEA
+ */
+@Configuration
+public class CommonConfig {
+    @Bean
+    public AliyunOSSOperator abc(AliyunOSSProperties aliyunOSSProperties){
+        return new AliyunOSSOperator(aliyunOSSProperties);
+    }
+
+}

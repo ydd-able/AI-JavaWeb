@@ -5,7 +5,7 @@
     <parent>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
-        <version>4.0.8</version>
+        <version>4.0.9</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.itheima</groupId>
@@ -67,7 +67,7 @@
             <artifactId>pagehelper-spring-boot-starter</artifactId>
             <version>1.4.7</version>
         </dependency>
-<!--        阿里云-->
+<!--阿里云-->
         <dependency>
             <groupId>com.aliyun.oss</groupId>
             <artifactId>aliyun-sdk-oss</artifactId>

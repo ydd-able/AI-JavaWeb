@@ -27,6 +27,6 @@ logging:
 aliyun:
   oss:
     endpoint: https://oss-cn-beijing.aliyuncs.com
-    bucketName: java-aiaiaiaiai
-    region: cn-beijing
+    bucketName: javaweb-aiaiaiaiai
+    region: cn-shanghai
 

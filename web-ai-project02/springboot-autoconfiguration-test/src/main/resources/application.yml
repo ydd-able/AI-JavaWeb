@@ -1,0 +1,6 @@
+#阿里云oss配置信息
+aliyun:
+  oss:
+    endpoint: https://oss-cn-beijing.aliyuncs.com
+    bucketName: javaweb-aiaiaiaiai
+    region: cn-beijing
